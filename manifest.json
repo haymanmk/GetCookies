@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "GetCookies",
+  "description": "Get Cookies from Different Domain.",
+  "version": "1.0.0",
+  "permissions": ["cookies"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "action": {
+    "default_popup": "./popup/dashboard.html",
+    "default_icon": "./assets/gingerbread-man.png"
+  }
+}
