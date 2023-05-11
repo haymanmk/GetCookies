@@ -4,7 +4,7 @@ body {
 }
 
 div {
-  background-color: #f8f7f9;
+  background-color: #eaeaea;
 }
 
 ul {
@@ -14,7 +14,7 @@ ul {
 
 .btn {
   display: flex;
-  gap: 12px;
+  gap: 16px;
   align-items: center;
   flex-direction: row;
   height: 36px;
@@ -22,16 +22,18 @@ ul {
   font-size: 12px;
   font-weight: bold;
   padding: 0px 24px;
+  cursor: pointer;
+  color: #0f1108;
 }
 
 #pr-main b {
   background-image: url("../assets/buy-svgrepo-com.svg");
-  height: 24px;
-  width: 24px;
+  height: 30px;
+  width: 30px;
 }
 
 li.btn:hover {
-  background-color: #449dd1;
+  background-color: #fcf300;
 }
 
 .container {
@@ -44,22 +46,24 @@ li.btn:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  background-color: #2b2d42;
-  color: #f8f7f9;
+  align-items: stretch;
+  background-color: #0f1108;
+  color: #4f6d7a;
   padding: 0px 12px;
 }
 
 #bottom-title {
+  display: flex;
+  align-items: center;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 #email b {
   display: inline-block;
   background-image: url("../assets/email-8-svgrepo-com.svg");
-  /* background-color: #f8f7f9; */
   background-size: cover;
   height: 20px;
   width: 20px;
+  cursor: pointer;
 }

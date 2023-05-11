@@ -3,8 +3,11 @@
   "name": "GetCookies",
   "description": "Get Cookies from Different Domain.",
   "version": "1.0.0",
-  "permissions": ["cookies"],
+  "permissions": ["cookies", "tabs"],
   "host_permissions": ["<all_urls>"],
+  "externally_connectable": {
+    "matches": ["<all_urls>"]
+  },
   "background": {
     "service_worker": "service-worker.js"
   },
